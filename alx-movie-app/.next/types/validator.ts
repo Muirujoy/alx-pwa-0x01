@@ -34,6 +34,12 @@ type PagesPageConfig = {
   handler satisfies PagesPageConfig
 }
 
+// Validate ..\..\pages\index.tsx
+{
+  const handler = {} as typeof import("..\\..\\pages\\index.js")
+  handler satisfies PagesPageConfig
+}
+
 
 
 
