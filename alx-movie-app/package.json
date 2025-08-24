@@ -3,6 +3,9 @@
     "@ducanh2912/next-pwa": "^10.2.9"
   },
   "devDependencies": {
+    "@types/node": "^24.3.0",
+    "@types/react": "^19.1.11",
+    "typescript": "^5.9.2",
     "webpack": "^5.101.3"
   },
   "scripts": {
